@@ -3,7 +3,7 @@
 # Alternativ 1
 
 ```html
-<a href="https://app.uxsignals.com/book/client_name">Book et intervju!</a>
+<a href="https://app.uxsignals.com/book/CLIENT_ID">Book et intervju!</a>
 ```
 
 # Alternativ 2
@@ -24,7 +24,7 @@ uxsignals.showWidget({
     id: '#uxsignals',
     // Unique identifier for the User. Can be anything as long as it's unique.
     userId: 'asdf',
-    clientName: 'client_name',
+    clientId: 'CLIENT_ID',
 })
 ```
 
@@ -34,7 +34,7 @@ Ren iframe. Vil alltid vises, også når brukeren allerede har booket intervju
 
 ```html
 <iframe 
-    src="https://app.uxsignals.com/embed/book/client_name?userId=asdf123" 
+    src="https://app.uxsignals.com/embed/book/CLIENT_ID?userId=asdf123" 
     frameborder="0"
     width="100%"
     style="min-height: 300px; width: 100%;"
