@@ -40,5 +40,8 @@ uxsignals.showWidget({
     // Unique identifier for the User. Can be anything as long as it's unique.
     userId: 'asdf',
     clientId: 'CLIENT_ID',
+    userInfo: {
+        email: 'users@email.com',
+    }
 })
 ```
