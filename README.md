@@ -8,21 +8,6 @@
 
 # Alternativ 2
 
-Ren iframe. Vil alltid vises, også når brukeren allerede har booket intervju
-
-```html
-<iframe 
-    src="https://app.uxsignals.com/embed/book/CLIENT_ID?userId=asdf123" 
-    frameborder="0"
-    width="100%"
-    style="min-height: 300px; width: 100%;"
-    allowtransparency="true"
-></iframe>
-```
-
-
-# Alternativ 3
-
 Viser widgeten kun når brukeren ikke allerede har booket intervju og du har ledige slots.
 
 ```sh
