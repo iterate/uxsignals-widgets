@@ -22,7 +22,7 @@ npm install @uxsignals/client
 import uxsignals from '@uxsignals/client'
 uxsignals.showWidget({
     id: '#uxsignals',
-    # Unique identifier for the User. Can be anything as long as it's unique.
+    // Unique identifier for the User. Can be anything as long as it's unique.
     userId: 'asdf',
     clientName: 'client_name',
 })
