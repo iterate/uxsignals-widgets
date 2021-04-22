@@ -8,7 +8,7 @@
 
 # Alternativ 2
 
-Viser widgeten kun når brukeren ikke allerede har booket intervju
+Viser widgeten kun når brukeren ikke allerede har booket intervju og du har ledige slots.
 
 ```sh
 npm install @uxsignals/client
